@@ -133,7 +133,7 @@ ________________________________________
 •	The confusion matrix shows 2148 correct predictions out of 3123 cases, with misclassifications occurring mainly in borderline cases between Weak and Non-Weak restaurants. 
 •	Errors suggest overlapping patterns where restaurant behavior is not clearly separable, indicating natural ambiguity in real-world restaurant performance data.
 
-🏦 Business Problem
+## 🏦 Business Problem
 Food delivery platforms like Zomato host thousands of restaurants, making it difficult for customers to identify high-quality, trustworthy, and value-for-money restaurants.
 From a business perspective, the platform also faces challenges such as:
 •	Identifying underperforming restaurants that may harm customer experience 
