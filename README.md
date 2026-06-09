@@ -2,7 +2,7 @@
 
 ## 📌 Introduction
 
-This project analyzes a Hyderabad-based Zomato restaurant dataset to understand restaurant performance patterns using Exploratory Data Analysis (EDA), statistical analysis, and machine learning techniques.
+This project analyzes a Hyderabad-based Zomato restaurant dataset to understand restaurant performance patterns using Exploratory Data Analysis (EDA), statistical analysis and machine learning techniques.
 ### The project focuses on analyzing important restaurant factors such as:
 ### •	⭐ Average Ratings
 ### •	🗳 Customer Votes
@@ -21,8 +21,8 @@ This project analyzes a Hyderabad-based Zomato restaurant dataset to understand 
 ### •	🏆 Top Performers
 ### •	📢 Overhyped Restaurants
 ### •	⚠ Weak Restaurants
-The project aims to identify restaurant quality patterns, customer engagement behavior, and factors influencing restaurant performance while also predicting underperforming restaurants using machine learning techniques.
-The insights generated from this project help support better restaurant analysis, recommendation strategies, and business decision-making.
+The project aims to identify restaurant quality patterns, customer engagement behavior and factors influencing restaurant performance while also predicting underperforming restaurants using machine learning techniques.
+The insights generated from this project help support better restaurant analysis, recommendation strategies and business decision-making.
 
 ---
 
@@ -31,12 +31,12 @@ The insights generated from this project help support better restaurant analysis
 The main objective of this project is to analyze restaurant performance patterns in Hyderabad using Zomato restaurant data and identify the key factors influencing customer engagement and restaurant quality.
 This project aims to:
 - 📊 Analyze restaurant behavior using ratings, votes, pricing, dining, and delivery performance
-- 🧠 Identify meaningful restaurant segments such as Hidden Gems, Top Performers, Overhyped, and Weak restaurants
+- 🧠 Identify meaningful restaurant segments such as Hidden Gems, Top Performers, Overhyped and Weak restaurants
 -	🔍 Discover patterns affecting restaurant popularity and customer satisfaction
 -	📉 Perform statistical analysis to validate important business insights
 -	🤖 Build a machine learning model to predict underperforming (Weak) restaurants
 -	📊 Develop an interactive Power BI dashboard for business storytelling and visualization
-The overall goal is to generate actionable insights that help understand restaurant quality, customer engagement behavior, and performance trends across different restaurant categories.
+The overall goal is to generate actionable insights that help understand restaurant quality, customer engagement behavior and performance trends across different restaurant categories.
 
 ---
 
@@ -54,29 +54,21 @@ This creates a need for data-driven analysis to better understand restaurant per
 
 ## 📂 Dataset Description
 
-The dataset contains restaurant-level and customer engagement information for Hyderabad restaurants listed on Zomato. The data includes restaurant ratings, pricing, dining and delivery performance, cuisine details, customer votes, and popularity indicators.
-The dataset was used to analyze restaurant quality, customer engagement behavior, restaurant segmentation, and weak restaurant prediction.
+The dataset contains restaurant-level and customer engagement information for Hyderabad restaurants listed on Zomato. The data includes restaurant ratings, pricing, dining and delivery performance, cuisine details, customer votes and popularity indicators.
+The dataset was used to analyze restaurant quality, customer engagement behavior, restaurant segmentation and weak restaurant prediction.
 
 ## 📌 Key Columns
 ### Column Name	Description
-restaurant_name	Name of the restaurant
-cuisine	Type of cuisine served
-city	Restaurant city location
-place	Restaurant locality/place
-avg_rating	Overall average restaurant rating
-dining_rating	Dining experience rating
-delivery_rating	Delivery experience rating
-total_votes	Total customer votes receivedu g
-dining_votes	Votes received for dining experience
-delivery_votes	Votes received for delivery experience
-price	Average restaurant pricing
-restaurant_popularity	Popularity indicator of restaurant
-is_highly_rated	Indicates whether restaurant is highly rated
-is_expensive	Indicates whether restaurant is expensive
-best_seller	Bestseller food item indicator
-is_bestseller	Binary bestseller indicator
-price_per_vote	Price-to-engagement ratio
-log_price	Log-transformed restaurant price
+- restaurant_name	Name of the restaurant
+- cuisine	Type of cuisine served
+- avg_rating	Overall average restaurant rating
+- dining_rating	Dining experience rating
+- delivery_rating	Delivery experience rating
+- total_votes	Total customer votes receivedu g
+- dining_votes	Votes received for dining experience
+- delivery_votes	Votes received for delivery experience
+- price	Average restaurant pricing
+- segment Restaurant category(weak,Hidden Gems,Top Performers,Overhyped)
 
 ---
 
@@ -109,7 +101,7 @@ log_price	Log-transformed restaurant price
   
 ### 2. SQL Analysis
 - Performed KPI analysis such as total restaurants, average rating, votes, and price
-- Business queries executed for top restaurants, high-rated restaurants, and engagement analysis
+- Business queries executed for top restaurants, high-rated restaurants and engagement analysis
   
 ### 3. Data Cleaning
 - Filtered Hyderabad restaurant data
@@ -123,7 +115,7 @@ Created restaurant segmentation feature (Weak, Hidden Gems, Top Performers, Over
 
 ### 5. Exploratory Data Analysis (EDA)
 - Descriptive statistics of key variables
-- Correlation analysis between rating, price, and votes
+- Correlation analysis between rating, price and votes
 - Cuisine-wise and segment-wise analysis
 - Customer engagement and voting behavior analysis
   
@@ -154,14 +146,14 @@ Created restaurant segmentation feature (Weak, Hidden Gems, Top Performers, Over
 ---
 
 ## 🔍 Key Insights
-- The restaurant dataset shows a clear imbalance in segment distribution, with Weak restaurants dominating, followed by Hidden Gems, Top Performers, and Overhyped categories, indicating uneven restaurant quality across Hyderabad.
+- The restaurant dataset shows a clear imbalance in segment distribution, with Weak restaurants dominating, followed by Hidden Gems, Top Performers and Overhyped categories, indicating uneven restaurant quality across Hyderabad.
 - Ratings remain relatively stable across price ranges, showing a weak relationship between price and average rating, meaning higher price does not guarantee better customer satisfaction. 
--	Customer engagement (votes) is mostly concentrated below 1000 votes per restaurant, while ratings remain between 3.5–4.2, indicating that popularity is not strongly correlated with rating quality. 
--	Segment-wise analysis shows that Hidden Gems (~4.11) and Top Performers (~4.08) achieve the highest ratings, while Weak (~3.86) and Overhyped (~3.77) perform lower in comparison. 
--	Engagement analysis shows that Top Performers and Overhyped restaurants receive higher customer interaction, while Weak restaurants dominate in count but have lower engagement levels. 
--	Delivery ratings are slightly more consistent across segments compared to dining ratings, with Overhyped restaurants showing the largest gap between dining and delivery experience, indicating inconsistency in service quality. 
--	Cuisine analysis shows that South Indian and Turkish cuisines receive the highest customer engagement, followed by Mandi, Pizza, Mughlai, and Kebab cuisines, indicating strong preference for traditional and meal-oriented food categories. 
--	Key drivers of restaurant performance include segment classification, customer ratings, votes, and cuisine preference, while price has a weaker influence on overall restaurant success. 
+- Customer engagement (votes) is mostly concentrated below 1000 votes per restaurant, while ratings remain between 3.5–4.2, indicating that popularity is not strongly correlated with rating quality. 
+- Segment-wise analysis shows that Hidden Gems (~4.11) and Top Performers (~4.08) achieve the highest ratings, while Weak (~3.86) and Overhyped (~3.77) perform lower in comparison. 
+- Engagement analysis shows that Top Performers and Overhyped restaurants receive higher customer interaction, while Weak restaurants dominate in count but have lower engagement levels. 
+- Delivery ratings are slightly more consistent across segments compared to dining ratings, with Overhyped restaurants showing the largest gap between dining and delivery experience, indicating inconsistency in service quality. 
+- Cuisine analysis shows that South Indian and Turkish cuisines receive the highest customer engagement, followed by Mandi, Pizza, Mughlai and Kebab cuisines, indicating strong preference for traditional and meal-oriented food categories. 
+- Key drivers of restaurant performance include segment classification, customer ratings, votes and cuisine preference, while price has a weaker influence on overall restaurant success. 
 
 ---
 
@@ -176,7 +168,7 @@ Created restaurant segmentation feature (Weak, Hidden Gems, Top Performers, Over
 
 ## 💼 Business Impact
 
--	The primary focus of this analysis is to accurately identify Weak restaurants, which represent underperforming listings with low ratings, low engagement, or poor customer feedback. 
+-	The primary focus of this analysis is to accurately identify Weak restaurants, which represent underperforming listings with low ratings, low engagement or poor customer feedback. 
 -	Detecting Weak restaurants helps the platform improve overall customer experience by: 
   Reducing visibility of poor-quality restaurants 
 	Improving ranking algorithms 
@@ -188,7 +180,7 @@ Created restaurant segmentation feature (Weak, Hidden Gems, Top Performers, Over
  --- 
 
 ## 📌 Key Takeaways
-•	Restaurant performance is mainly driven by ratings, votes, and cuisine rather than price. 
+•	Restaurant performance is mainly driven by ratings, votes and cuisine rather than price. 
 •	Weak restaurants dominate the dataset, showing need for quality detection. 
 •	Hidden Gems exist as high-quality but low-visibility restaurants. 
 •	Customer engagement (votes) is not strongly aligned with ratings. 
@@ -201,7 +193,7 @@ Created restaurant segmentation feature (Weak, Hidden Gems, Top Performers, Over
 
 **Avinash Reddy**
 
-This project is part of my Data Analyst learning journey focused on SQL, Python, statistical analysis, machine learning prediction, and Power BI dashboard development to generate business insights from restaurant performance data.
+This project is part of my Data Analyst learning journey focused on SQL, Python, statistical analysis, machine learning prediction and Power BI dashboard development to generate business insights from restaurant performance data.
 
 
 
