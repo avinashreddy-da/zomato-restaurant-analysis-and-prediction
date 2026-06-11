@@ -179,6 +179,18 @@ Created restaurant segmentation feature (Weak, Hidden Gems, Top Performers, Over
 
  --- 
 
+## 📊 Power BI Dashboard
+
+- Created an interactive Power BI dashboard for restaurant performance analysis and customer engagement insights
+- Visualized key findings from SQL analysis, Python EDA, statistical analysis.
+- Analyzed restaurant segments, cuisine performance, customer engagement patterns, and restaurant quality indicators
+- Included KPIs, restaurant performance analysis, cuisine insights.
+
+📌 Dashboard Screenshots: (added in repository)
+📌 File: `Zomato_Restaurant_Analysis_Dashboard.pbix`
+
+
+
 ## 📌 Key Takeaways
 •	Restaurant performance is mainly driven by ratings, votes and cuisine rather than price. 
 •	Weak restaurants dominate the dataset, showing need for quality detection. 
