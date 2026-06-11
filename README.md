@@ -191,11 +191,11 @@ Created restaurant segmentation feature (Weak, Hidden Gems, Top Performers, Over
 
 ### Page 1 - Restaurant Perfomance overview 
 
-![Dashboard Page 1] (Dashboard_Page 1.png)
+![Dashboard](Dashboard_Page1.png)
 
 ### Page 2 - Restaurant & Cuisine 
 
-![Dashboard Page 1] (Dashboard_Page 2.png)
+![Dashboard](Dashboard_Page2.png)
 
 ---
 
