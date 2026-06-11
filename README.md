@@ -189,7 +189,15 @@ Created restaurant segmentation feature (Weak, Hidden Gems, Top Performers, Over
 📌 Dashboard Screenshots: (added in repository)
 📌 File: `Zomato_Restaurant_Analysis_Dashboard.pbix`
 
+### Page 1 - Restaurant Perfomance overview 
 
+![Dashboard Page 1] (Dashboard_Page 1.png)
+
+### Page 2 - Restaurant & Cuisine 
+
+![Dashboard Page 1] (Dashboard_Page 2.png)
+
+---
 
 ## 📌 Key Takeaways
 •	Restaurant performance is mainly driven by ratings, votes and cuisine rather than price. 
