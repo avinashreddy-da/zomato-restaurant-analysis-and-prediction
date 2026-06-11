@@ -200,12 +200,12 @@ Created restaurant segmentation feature (Weak, Hidden Gems, Top Performers, Over
 ---
 
 ## 📌 Key Takeaways
-•	Restaurant performance is mainly driven by ratings, votes and cuisine rather than price. 
-•	Weak restaurants dominate the dataset, showing need for quality detection. 
-•	Hidden Gems exist as high-quality but low-visibility restaurants. 
-•	Customer engagement (votes) is not strongly aligned with ratings. 
-•	South Indian and Turkish cuisines show higher engagement. 
-•	ML model effectively identifies Weak restaurants with reasonable accuracy.
+-	Restaurant performance is mainly driven by ratings, votes and cuisine rather than price. 
+-	Weak restaurants dominate the dataset, showing need for quality detection. 
+-	Hidden Gems exist as high-quality but low-visibility restaurants. 
+-	Customer engagement (votes) is not strongly aligned with ratings. 
+-	South Indian and Turkish cuisines show higher engagement. 
+-	ML model effectively identifies Weak restaurants with reasonable accuracy.
 
 ---
 
