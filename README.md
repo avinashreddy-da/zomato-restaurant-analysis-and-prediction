@@ -191,11 +191,11 @@ Created restaurant segmentation feature (Underperforming Restaurants, Hidden Gem
 
 ### Page 1 - Restaurant Perfomance overview 
 
-![Dashboard](Dashboard_Page1.png)
+![Dashboard](Dashboard_Page 1.png)
 
 ### Page 2 - Restaurant & Cuisine 
 
-![Dashboard](Dashboard_Page2.png)
+![Dashboard](Dashboard_Page 2.png)
 
 ---
 
