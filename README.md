@@ -58,17 +58,19 @@ The dataset contains restaurant-level and customer engagement information for Hy
 The dataset was used to analyze restaurant quality, customer engagement behavior, restaurant segmentation and underperforming restaurant prediction.
 
 ## 📌 Key Columns
-### Column Name	Description
-- restaurant_name	Name of the restaurant
-- cuisine	Type of cuisine served
-- avg_rating	Overall average restaurant rating
-- dining_rating	Dining experience rating
-- delivery_rating	Delivery experience rating
-- total_votes	Total customer votes receivedu g
-- dining_votes	Votes received for dining experience
-- delivery_votes	Votes received for delivery experience
-- price	Average restaurant pricing
-- segment Restaurant category(weak,Hidden Gems,Top Performers,Overhyped)
+
+| ### Column Name | ### Description |
+|------------|------------|
+| `restaurant_name` | Name of the restaurant |
+| `cuisine` | Type of cuisine served |
+| `avg_rating` | Overall average restaurant rating |
+| `dining_rating` | Dining experience rating |
+| `delivery_rating` | Delivery experience rating |
+| `total_votes` | Total customer votes received |
+| `dining_votes` | Votes received for dining experience |
+| `delivery_votes` | Votes received for delivery experience |
+| `price` | Average restaurant pricing |
+| `segment` | Restaurant category (Underperforming, Hidden Gems, Top Performers, Overhyped) |
 
 ---
 
