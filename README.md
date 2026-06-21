@@ -59,7 +59,7 @@ The dataset was used to analyze restaurant quality, customer engagement behavior
 
 ## 📌 Key Columns
 
-| ### Column Name | ### Description |
+| Column Name |  Description |
 |------------|------------|
 | `restaurant_name` | Name of the restaurant |
 | `cuisine` | Type of cuisine served |
